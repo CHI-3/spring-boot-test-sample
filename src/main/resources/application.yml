@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://接続先名/DB名?serverTimezone=JST&nullCatalogMeansCurrent=true
+    username: ユーザー名
+    password: パスワード
+  jpa:
+    database: MYSQL
+    hibernate.ddl-auto: update
+        
+  main:
+    allow-bean-definition-overriding: true
